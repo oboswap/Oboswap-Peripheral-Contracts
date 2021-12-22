@@ -1,21 +1,20 @@
 {
   "name": "@oboswap/obo-swap-periphery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🎚 Peripheral smart contracts for interacting with Oboswap",
   "engines": {
     "node": ">=10"
   },
   "homepage": "",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/oboswap/obo-swap-periphery.git"
+    "url": "https://github.com/oboswap/obo-swap-peripheral.git"
   },
   "files": [
     "build",
     "contracts"
   ],
   "dependencies": {
-    "@qdexgo/core-contracts": "1.0.0",
+    "@oboswap/obo-swap-core": "1.0.3",
     "@uniswap/lib": "1.1.1",
     "truffle": "^5.4.23",
     "truffle-hdwallet-provider": "^1.0.17",
