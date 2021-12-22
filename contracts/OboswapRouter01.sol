@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import 'https://github.com/qdexgo/qdex-eth-core/contracts/interfaces/IOboswapFactory.sol';
+import '@qdexgo/core-contracts/contracts/interfaces/IOboswapFactory.sol';
 import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
 
 import './libraries/OboswapLibrary.sol';

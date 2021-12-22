@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import 'https://github.com/qdexgo/qdex-eth-core/contracts/interfaces/IOboswapPair.sol';
+import '@qdexgo/core-contracts/contracts/interfaces/IOboswapPair.sol';
 import '@uniswap/lib/contracts/libraries/FixedPoint.sol';
 
 // library with helper methods for oracles that are concerned with computing average prices

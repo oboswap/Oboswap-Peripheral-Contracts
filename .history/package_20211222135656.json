@@ -1,22 +1,23 @@
 {
-  "name": "pancakeswap-peripheral",
-  "version": "1.1.0-beta.0",
-  "description": "🎚 Peripheral smart contracts for interacting with pancake",
+  "name": "@oboswap/obo-swap-periphery",
+  "version": "1.0.0",
+  "description": "🎚 Peripheral smart contracts for interacting with Oboswap",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://pancakeswap.finance",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qdexgo/qdex-eth-peripheral.git"
+    "url": "https://github.com/oboswap/obo-swap-periphery.git"
   },
   "files": [
     "build",
     "contracts"
   ],
   "dependencies": {
+    "@qdexgo/core-contracts": "1.0.0",
     "@uniswap/lib": "1.1.1",
-    "@uniswap/v2-core": "^1.0.1",
+    "truffle": "^5.4.23",
     "truffle-hdwallet-provider": "^1.0.17",
     "truffle-plugin-verify": "^0.4.0"
   },

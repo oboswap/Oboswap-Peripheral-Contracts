@@ -1,6 +1,6 @@
 # Oboswap Router
 
-### Ethereum-rinkeby-Test
+### Binance smart chain
 
 The following assumes the use of `node@>=10`.
 

@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import 'https://github.com/qdexgo/qdex-eth-core/blob/main/contracts/interfaces/IOboswapPair.sol';
+import "@qdexgo/core-contracts/contracts/interfaces/IOboswapPair.sol";
 
 import "./SafeMath.sol";
 
